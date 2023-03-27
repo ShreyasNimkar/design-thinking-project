@@ -1,40 +1,20 @@
 import React from "react";
 import { useState, useEffect } from "react";
-import "../data/login/login.json";
+import logindata from "../data/login/login.js";
 const Login = () => {
-  let [usernames, setUsernames] = useState([
-    {
-      username: "shreyas",
-      password: "password",
-    },
-    {
-      username: "shreyas",
-      password: "password",
-    },
-    {
-      username: "shreyas",
-      password: "password",
-    },
-    {
-      username: "shreyas",
-      password: "password",
-    },
-  ]);
-  const [password, setPassword] = useState([]);
+  let [usernames, setUsernames] = useState(logindata);
 
+  useEffect(() => {
+    console.log(usernames);
+  }, []);
   const [usernameInput, setUsernameInput] = useState("");
   const [passwordInput, setpasswordInput] = useState("");
   const submitHandler = () => {
-    const newUsernames = [
-      ...usernames,
-      { username: usernameInput, password: passwordInput },
-    ];
+    const newUsernames = [{ username: usernameInput, password: passwordInput }];
     setUsernames(newUsernames);
     setUsernameInput("");
     setpasswordInput("");
   };
-
-  useEffect(() => {}, []);
 
   return (
     <div className="h-screen w-full">
