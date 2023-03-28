@@ -1,18 +1,90 @@
 {
-    "1":{
-        "username":"shreyas",
-        "password":"password"
+    "1": {
+      "id": 1,
+      "name": "Backpack",
+      "image": "bag",
+      "age": 12,
+      "mrp": 49.99,
+      "category": "Travel Accessories",
+      "owner": "Shreyas Nimkar",
+      "description":
+        "The perfect backpack for hostellers, with ample storage space, multiple compartments, and comfortable straps for long-term wear."
     },
-    "2":{
-        "username":"shreyas",
-        "password":"password"
+    "2": {
+      "id": 2,
+      "name": "Water Bottle",
+      "image": "waterbottle",
+      "age": 6,
+      "mrp": 14.99,
+      "category": "Drinkware",
+      "owner": "Shreyas Nimkar",
+      "description":
+        "Stay hydrated all day long with this high-quality water bottle, which keeps drinks cold for up to 24 hours or hot for up to 12 hours."
     },
-    "3":{
-        "username":"shreyas",
-        "password":"password"
+    "3": {
+      "id": 3,
+      "name": "Portable Charger",
+      "image": "portablecharger",
+      "age": 8,
+      "mrp": 29.99,
+      "category": "Electronics",
+      "owner": "Shreyas Nimkar",
+      "description":
+        "Never run out of battery on your phone or other devices with this portable charger, which can recharge your device multiple times on a single charge."
     },
-    "4":{
-        "username":"shreyas",
-        "password":"password"
+    "4": {
+      "id": 4,
+      "name": "Earplugs",
+      "image": "earplugs",
+      "age": 3,
+      "mrp": 9.99,
+      "category": "Sleep Accessories",
+      "owner": "Shreyas Nimkar",
+      "description":
+        "Block out noise from other roommates or guests with these comfortable and effective earplugs, which are perfect for getting a good night's sleep."
+    },
+    "5": {
+      "id": 5,
+      "name": "Sleeping Bag",
+      "image": "sleepingbag",
+      "age": 18,
+      "mrp": 89.99,
+      "category": "Camping Gear",
+      "owner": "Shreyas Nimkar",
+      "description":
+        "Stay warm and comfortable on your next camping trip or hostel stay with this high-quality sleeping bag, which is designed to keep you cozy in temperatures as low as 20°F."
+    },
+    "6": {
+      "id": 6,
+      "name": "Headlamp",
+      "image": "headlamp",
+      "age": 4,
+      "mrp": 24.99,
+      "category": "Outdoor Gear",
+      "owner": "Shreyas Nimkar",
+      "description":
+        "Navigate dark hallways or outdoor spaces with ease using this durable and reliable headlamp, which features multiple lighting modes and a comfortable fit."
+    },
+    "7": {
+      "id": 7,
+      "name": "Towel",
+      "image": "towel",
+      "age": 9,
+      "mrp": 19.99,
+      "category": "Bath & Shower",
+      "owner": "Shreyas Nimkar",
+      "description":
+        "Stay clean and dry with this high-performance towel, which dries quickly and can be easily packed into a small space for travel."
+    },
+    "8": {
+      "id": 8,
+      "name": "Laundry Bag",
+      "image": "laundrybag",
+      "age": 2,
+      "mrp": 12.99,
+      "category": "Storage & Organization",
+      "owner": "Shreyas Nimkar",
+      "description":
+        "Keep your dirty clothes separate and organized with this lightweight and breathable laundry bag, which features a pop-up design for easy storage and transport."
     }
-}
+  }
